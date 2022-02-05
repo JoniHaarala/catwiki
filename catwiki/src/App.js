@@ -1,14 +1,12 @@
-import React /*, { Component }*/ from 'react';
 import './App.css';
+import Arriba from './components/header';
 
-function App() {
-
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Arriba className='bg-blue-400 font-bold '></Arriba>
   );
 }
 
-
 export default App;
+
+//nota: para denderizar un componente su nombre debe comenzar con MAYUSCULA, sino no hace nada
