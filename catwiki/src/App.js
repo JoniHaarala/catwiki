@@ -1,9 +1,11 @@
-import './App.css';
-import Arriba from './components/header';
-
+import './styles/global.css';
+import Head from './components/head';
+import React from 'react';
 const App = () => {
   return (
-    <Arriba className='bg-blue-400 font-bold '></Arriba>
+    <div className="px-16 bg-slate-50 dark:bg-gray-900">
+      <Head></Head>
+    </div>
   );
 }
 
