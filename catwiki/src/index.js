@@ -9,9 +9,8 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className="bg-white dark:bg-black transition-all">
+      <body className="transition-all">
         <main>
-          
           <App />
         </main>
       </body>

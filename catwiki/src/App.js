@@ -1,10 +1,17 @@
 import './styles/global.css';
 import Head from './components/head';
+import Foter from './components/footer';
 import React from 'react';
+import InfContent from './components/infoContent';
+import Search from './components/SearchContent';
+
 const App = () => {
   return (
-    <div className="px-16 bg-slate-50 dark:bg-gray-900">
+    <div className="bg-slate-50 dark:bg-gray-900 min-h-screen px-6 md:px-16 flex flex-col font-['Montserrat','sans-serif']">
       <Head></Head>
+      <Search></Search>
+      <InfContent></InfContent>
+      <Foter></Foter>
     </div>
   );
 }
