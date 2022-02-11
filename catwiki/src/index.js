@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
 import { ThemeProvider } from './components/dm/themeContext';
-
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

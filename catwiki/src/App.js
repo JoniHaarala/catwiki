@@ -7,12 +7,15 @@ import Search from './components/body/SearchContent';
 
 const App = () => {
   return (
-    <div className="bg-slate-50 dark:bg-gray-900 min-h-screen px-6 md:px-16 flex flex-col font-['Montserrat','sans-serif']">
-      <Head></Head>
-      <Search></Search>
-      <InfContent></InfContent>
-      <Foter></Foter>
+    <div className="bg-slate-50 dark:bg-zinc-900 min-h-screen px-6 md:px-16 flex flex-col font-['Montserrat','sans-serif']">
+      <div className="max-w-screen-2xl self-center">
+        <Head></Head>
+        <Search></Search>
+        <InfContent></InfContent>
+        <Foter></Foter>
+      </div>
     </div>
+
   );
 }
 

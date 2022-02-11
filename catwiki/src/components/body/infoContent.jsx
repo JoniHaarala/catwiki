@@ -7,7 +7,7 @@ import cat3 from '../../assets/image3.png'; //importacion estatica
 
 const InfContent = () => {
     return (
-        <div className="dark:bg-gray-900 dark:text-white mt-12 justify-center sm:mx-20 font-['Montserrat','sans-serif'] sm:flex sm:my-24 sm:px-32 sm:py-14">
+        <div className="dark:text-white mt-12 justify-center sm:mx-20 font-['Montserrat','sans-serif'] sm:flex sm:my-24 sm:px-32 sm:py-14">
             <div className="sm:self-center sm:text-xl sm:pr-32">
                 <div className="w-12 h-1 mb-2 border-2 bg-amber-900 border-amber-900 dark:bg-amber-600 dark:border-amber-600"></div>
                 <p className="font-bold text-3xl sm:text-5xl">Why should you have a cat?</p>
