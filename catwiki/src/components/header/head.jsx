@@ -1,6 +1,6 @@
 import '../styles/global.css'
-import Logo from './logo'
-import Toggle from '../components/dmToggle';
+import Logo from '../logos/logo'
+import Toggle from '../dm/dmToggle';
 
 function Head() {
     return (
