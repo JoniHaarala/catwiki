@@ -1,6 +1,6 @@
-import cat1 from '../assets/image1.png';
-import cat2 from '../assets/image2.png';
-import cat3 from '../assets/image3.png'; //importacion estatica
+import cat1 from '../../assets/image1.png';
+import cat2 from '../../assets/image2.png';
+import cat3 from '../../assets/image3.png'; //importacion estatica
 
 //import React, { useMemo } from 'react'; //import dinamico
 //const imgGatos = require.context('ruta de las img', true );

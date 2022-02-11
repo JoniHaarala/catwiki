@@ -1,4 +1,4 @@
-import LogoWhite from './logoWhite';
+import LogoWhite from '../logos/logoWhite';
 
 // footer
 const Foter  = () => {

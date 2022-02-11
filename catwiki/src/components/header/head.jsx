@@ -1,4 +1,4 @@
-import '../styles/global.css'
+import '../../styles/global.css'
 import Logo from '../logos/logo'
 import Toggle from '../dm/dmToggle';
 

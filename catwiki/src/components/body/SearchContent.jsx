@@ -1,5 +1,5 @@
-import Catbg from '../assets/HeroImagelg.png';
-import Img1 from '../assets/image1.png';
+import Catbg from '../../assets/HeroImagelg.png';
+import Img1 from '../../assets/image1.png';
 
 function Search() {
     return (

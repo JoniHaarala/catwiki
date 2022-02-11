@@ -1,9 +1,9 @@
 import './styles/global.css';
-import Head from './components/head';
-import Foter from './components/footer';
+import Head from './components/header/head';
+import Foter from './components/footer/footer';
 import React from 'react';
-import InfContent from './components/infoContent';
-import Search from './components/SearchContent';
+import InfContent from './components/body/infoContent';
+import Search from './components/body/SearchContent';
 
 const App = () => {
   return (
